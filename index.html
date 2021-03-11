@@ -1,436 +1,614 @@
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <!-- Css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/ionicons.min.css" type="text/css">
-    <link rel="stylesheet" href="CSS/grid.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/queries.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-
-    
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CoreXFit — Transform Your Body, Transform Your Life</title>
+  <meta name="description" content="Professional fitness training that delivers real results. Science-based workouts, expert coaching, and proven methods to get you in the best shape of your life." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
-    
-    <!-- Header Section  Starts -->
+  <!-- Header / Nav -->
+  <header class="site-header" id="home">
+    <nav class="nav container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">CX</span>
+        <span class="logo-text">CoreXFit</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul id="primary-menu" class="nav-links">
+        <li><a href="#programs">PROGRAMS</a></li>
+        <li><a href="#trainers">TRAINERS</a></li>
+        <li><a href="#plans">MEMBERSHIP</a></li>
+        <li><a href="#testimonials">SUCCESS STORIES</a></li>
+        <li><a href="#contact" class="btn btn--sm btn--primary">FREE CONSULTATION</a></li>
+      </ul>
+    </nav>
 
-    <header id="home">
-        <nav>
-            <div class="row js--nav-row">
-                <div class="main-logo">Fitness Pro</div>
-                <ul class="main-nav js--main-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#services">Services</a></li>
-                </ul>
-                 <a class="mobile-nav-icon js--nav-icon" id="hamburger"><i class="ion-navicon-round"></i></a>
-            </div>
-        </nav>
-
-        <div class="header-text-box">
-            <h1>FITNESS GROW YOUR <br> STRENGTH</h1>
-            <h3>Start your way to healthy life with our personalized <br> CrossFit programs.</h3> <br>
-            <a class="btn btn-full" href="#about">Read More</a>
-            <a class="btn btn-outline" href="#contact">Contact Us</a>
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="eyebrow">START YOUR TRANSFORMATION</p>
+        <h1 class="hero__title">
+          GET FIT. STAY STRONG. <span class="accent">ACHIEVE MORE.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Join thousands who've transformed their bodies with our proven training system. Real workouts, real results, real support from day one.
+        </p>
+        <div class="hero__actions">
+          <a href="#plans" class="btn btn--primary">START YOUR JOURNEY</a>
+          <a href="#contact" class="btn btn--ghost">FREE CONSULTATION</a>
         </div>
-    </header>
-
-    <!-- Header Section Ends -->
-
-     <!-- About Us Section Starts -->
-     <section class="about-section" id="about">
-         <div class="row">
-             <h2>Welcome to <span>Fitness Pro</span></h2>
-         </div>
-
-         <div class="row">
-             <div class="col span-1-of-2">
-                 <h2>We help you achieve your Fitness goals</h2>
-                 <h6>
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatibus, vel! Voluptate distinctio, ipsam, at eum,
-                     sunt aliquam laborum obcaecati quia sint beatae inventore nostrum
-                     quis debitis quae totam nobis ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatibus, vel! Voluptate distinctio, ipsam, at eum,
-                     sunt aliquam laborum obcaecati quia sint beatae inventore nostrum
-                     quis debitis quae tot5m nobis ad Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatibus, vel! Voluptate distinctio, ipsam, at eum,
-                     sunt aliquam laborum obcaecati quia sint beatae inventore nostrum
-                     quis debitis quae totam nobis ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 </h6>
-             </div>
-             <div class="col span-1-of-2 iframe-col">
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fcN37TxBE_s" frameborder="0"
-                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                     allowfullscreen></iframe>
-             </div>
-         </div>
-
-     </section>
-     <!-- About Us Section Ends -->
-
-    <!-- Services Section Starts -->
-    <section class="services-section" id="services">
-
-        <div class="row">
-            <h2>Our <span>Services</span></h2>
+      </div>
+      <div class="hero__media">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center" alt="Person doing deadlifts" />
         </div>
-               
-        <div class="row services-row">
-            <div class="col span-1-of-3">
-                <img src="images/1.jpg" alt="">
-                <h4>Beginner Classes</h4>
-                <h6>Doloribus, dolor ex rerum a natus dignissimos neque porro fugit voluptates ipsam eveniet nihil, laudantium sit sunt, quas repellendus autem. Voluptatem, velit.</h6>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="images/7.jpg" alt="">
-                <h4>Personal Training</h4>
-                <h6>Dignissimos aliquam maiores, quia, velit rerum fugiat at consequuntur sunt et ea culpa a dolorum, voluptates consequatur! Distinctio amet accusantium nostrum laborum!</h6>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="images/4.jpg" alt="">
-                <h4>Abdominal Excercises</h4>
-                <h6>Aut ut facere sapiente minima quaerat vel amet harum fugit veritatis, sequi eveniet hic ipsum animi maiores soluta sit corrupti ipsam commodi.</h6>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="images/5.jpg" alt="">
-                <h4>Barbell Training</h4>
-                <h6>Ducimus quae enim voluptatem molestiae assumenda omnis quia. Laboriosam dicta odit soluta magnam dolore voluptatum voluptates debitis sapiente, incidunt quam nostrum vel?</h6>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="images/c6.jpg" alt="">
-                <h4>Crossfit Excercises</h4>
-                <h6>Suscipit ducimus natus ea temporibus? Nostrum explicabo dicta ex quibusdam alias expedita. Deleniti atque, eius doloremque explicabo sit libero maxime iusto eos.</h6>
-            </div>
-            <div class="col span-1-of-3">
-                <img src="images/10.jpg" alt="">
-                <h4>Cardio Excercises</h4>
-                <h6>Voluptatem fuga velit quidem corrupti sunt vero ullam eligendi alias. Suscipit quae ipsa voluptates eum neque quos dolor dolore deserunt quaerat autem.</h6>
-            </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="value">150+</span><span class="label">WEEKLY CLASSES</span></div>
+          <div class="stat"><span class="value">12</span><span class="label">EXPERT TRAINERS</span></div>
+          <div class="stat"><span class="value">94%</span><span class="label">SUCCESS RATE</span></div>
         </div>
+      </div>
     </section>
-    <!-- Services Section Ends -->
+  </header>
 
-    <!-- Trainers Section starts -->
-    <section class="trainers-section">
-
-        <div class="row">
-            <h2>Our <span>Trainers</span></h2>
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container grid grid--2">
+      <div class="about__media reveal">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop&crop=center" alt="Modern gym" class="rounded" />
+      </div>
+      <div class="about__content">
+        <p class="eyebrow">ABOUT COREXFIT</p>
+        <h2>WHERE FITNESS BECOMES LIFESTYLE</h2>
+        <p>
+          CoreXFit combines proven training methods with modern equipment and expert guidance. Our systematic approach helps you build strength, lose fat, and develop lasting healthy habits.
+        </p>
+        <ul class="checklist">
+          <li>Comprehensive fitness assessment and personalized goal setting</li>
+          <li>Strength training, cardio conditioning, and flexibility programs</li>
+          <li>Body composition tracking, progress monitoring, and ongoing support</li>
+        </ul>
+        <div class="stacked-cta">
+          <a href="#programs" class="btn btn--primary">EXPLORE PROGRAMS</a>
+          <a href="#contact" class="link">MEET OUR TRAINERS →</a>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="row">
-            <div class="col span-1-of-4">
-                <img src="images/t1.jpg" alt="Trainers">
-                <h4>Elizabeth Olsen</h4>
-            </div>
-             <div class="col span-1-of-4">
-                 <img src="images/t2.jpg" alt="Trainers">
-                 <h4>Mark Ruffalo</h4>
-             </div>
-             <div class="col span-1-of-4">
-                 <img src="images/t3.jpg" alt="Trainers">
-                 <h4>Scarlett Johannson</h4>
-             </div>
-             <div class="col span-1-of-4">
-                 <img src="images/t4.jpg" alt="Trainers">
-                 <h4>Robert Downey jr.</h4>
-             </div>
-        </div>
-    </section>
-    <!-- Trainers Section Ends -->
-
-   
-
-      <!-- testimonial section starts -->
-      <section class="section-testimonials">
-          <div class="row">
-              <h2>What Our Fitness Pro Members Say</h2>
+  <!-- Programs / Classes -->
+  <section id="programs" class="section programs">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">FITNESS PROGRAMS</p>
+        <h2>TRAINING THAT DELIVERS RESULTS</h2>
+        <p>Choose from our proven programs designed to help you reach your specific fitness goals.</p>
+      </header>
+      <div class="grid grid--3">
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop&crop=center" alt="High-intensity training" />
+          <div class="card__body">
+            <h3>HIGH INTENSITY TRAINING</h3>
+            <p>Burn calories and build endurance with our efficient HIIT workouts designed for maximum results.</p>
+            <a href="#contact" class="link">TRY A CLASS →</a>
           </div>
-          <div class="row">
-              <div class="col span-1-of-3">
-                  <blockquote>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi et minus perferendis fuga
-                      distinctio, expedita obcaecati nulla ducimus ad error autem aspernatur earum nemo ut, sunt quod
-                      fugit laboriosam?
-                      <cite><img src="images/customer-1.jpg">Alberto Duncan</cite>
-                  </blockquote>
-              </div>
-              <div class="col span-1-of-3">
-                  <blockquote>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo facere at quaerat nulla? Nemo
-                      deleniti eos dicta ut, ducimus vero nobis id quidem impedit culpa repellat cumque animi officia
-                      incidunt.
-                      <cite><img src="images/customer-2.jpg">Joana Silva</cite>
-                  </blockquote>
-              </div>
-              <div class="col span-1-of-3">
-                  <blockquote>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum reprehenderit explicabo, inventore
-                      nesciunt ipsum repellat minus omnis nostrum corrupti eos voluptatibus incidunt? Ipsam pariatur
-                      dolorem iste ullam iure debitis dolorum?
-                      <cite><img src="images/customer-3.jpg">Milton Chapman</cite>
-                  </blockquote>
-              </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&h=250&fit=crop&crop=center" alt="Strength training" />
+          <div class="card__body">
+            <h3>STRENGTH & POWER TRAINING</h3>
+            <p>Build muscle and increase strength with progressive overload training and expert technique coaching.</p>
+            <a href="#contact" class="link">GET STRONGER →</a>
           </div>
-      </section>
-      <!-- testimonial section ends -->
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop&crop=center" alt="Functional fitness" />
+          <div class="card__body">
+            <h3>FUNCTIONAL FITNESS</h3>
+            <p>Improve mobility, core strength, and movement quality for better performance in daily life.</p>
+            <a href="#contact" class="link">MOVE BETTER →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
+  <!-- Trainers -->
+  <section id="trainers" class="section trainers">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">EXPERT TRAINERS</p>
+        <h2>MEET YOUR FITNESS COACHES</h2>
+        <p>Certified professionals dedicated to helping you achieve your fitness goals safely and effectively.</p>
+      </header>
+      <div class="grid grid--4">
+        <article class="coach reveal">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=300&h=300&fit=crop&crop=face" alt="Elizabeth" />
+          <h3>ELIZABETH CHEN</h3>
+          <p>STRENGTH SPECIALIST</p>
+        </article>
+        <article class="coach reveal">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Mark" />
+          <h3>MARK RODRIGUEZ</h3>
+          <p>OLYMPIC LIFTING COACH</p>
+        </article>
+        <article class="coach reveal">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Sarah" />
+          <h3>SARAH THOMPSON</h3>
+          <p>MOVEMENT SPECIALIST</p>
+        </article>
+        <article class="coach reveal">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="David" />
+          <h3>DAVID PARKER</h3>
+          <p>FITNESS COACH</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-        <!-- statistic section starts -->
-        <section class="statistic-section">
-            <div class="row head-row">
-                <h2>Our <span>Statistics</span></h2>
+  <!-- Why Choose CoreXFit -->
+  <section id="why-choose" class="section why-choose">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">WHY COREXFIT</p>
+        <h2>WHAT SETS US APART</h2>
+        <p>Discover why thousands choose CoreXFit as their fitness transformation partner.</p>
+      </header>
+      <div class="grid grid--2">
+        <div class="features-list">
+          <div class="feature-item reveal">
+            <div class="feature-icon">
+              <span>🎯</span>
             </div>
-            <div class="row">
-                <div class="col span-1-of-4">
-                    <h2>18</h2>
-                    <h4>Years of Expierience</h4>
-                </div>
-                <div class="col span-1-of-4">
-                    <h2>1200</h2>
-                    <h4>Contest attended</h4>
-                </div>
-                <div class="col span-1-of-4">
-                    <h2>700</h2>
-                    <h4>Happy Customer</h4>
-                </div>
-                <div class="col span-1-of-4">
-                    <h2>800</h2>
-                    <h4>Weight Loss & Fitness</h4>
-                </div>
+            <div class="feature-content">
+              <h3>PERSONALIZED APPROACH</h3>
+              <p>Every member gets a customized fitness plan based on their goals, fitness level, and lifestyle. No cookie-cutter programs here.</p>
             </div>
-        </section>
-        <!-- statistic section ends -->
-
-    <!-- Subscription Section starts-->
-    <section class="subscription-section" id="pricing">
-        <div class="row">
-            <h2>Subscription <span>Plans</span></h2>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">
+              <span>🏆</span>
+            </div>
+            <div class="feature-content">
+              <h3>PROVEN RESULTS</h3>
+              <p>Our evidence-based training methods have helped over 2,000 members achieve their fitness goals in the past three years.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">
+              <span>🔬</span>
+            </div>
+            <div class="feature-content">
+              <h3>SCIENCE-BACKED TRAINING</h3>
+              <p>All our programs are designed using the latest exercise science research to maximize results while minimizing injury risk.</p>
+            </div>
+          </div>
         </div>
-        <div class="row">
-           <div class="col span-1-of-4">
-               <div class="price-card">
-                   <div class="top1 top">
-                       <h4>Beginner</h4>
-                       <p class="plan-price">$199 <span>/ month</span></p>
-                   </div>
-                   <div class="middle middle1">
-                       <ul>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Training Overview</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Beginner Classes</li>
-                           <li><i class="ion-ios-close-empty icon-small"></i>Personal Training</li>
-                           <li><i class="ion-ios-close-empty icon-small"></i>Cross-Fit Training</li>
-                       </ul>
-                   </div>
-                   <div class="bottom bottom1">
-                       <a href="#" class="btn-card">Join Now</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col span-1-of-4">
-               <div class="price-card">
-                   <div class="top2 top">
-                       <h4>Professional</h4>
-                       <p class="plan-price">$299 <span>/ month</span></p>
-                   </div>
-                   <div class="middle middle2">
-                       <ul>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Training Overview</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Beginner Classes</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Personal Training</li>
-                           <li><i class="ion-ios-close-empty icon-small"></i>Cross-Fit Training</li>
-                       </ul>
-                   </div>
-                   <div class="bottom bottom2">
-                       <a href="#" class="btn-card">Join Now</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col span-1-of-4">
-               <div class="price-card">
-                   <div class="top3 top">
-                       <h4>Standard</h4>
-                       <p class="plan-price">$399 <span>/ month</span></p>
-                   </div>
-                   <div class="middle middle3">
-                       <ul>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Training Overview</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Beginner Classes</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Personal Training</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Cross-Fit Training</li>
-                       </ul>
-                   </div>
-                   <div class="bottom bottom3">
-                       <a href="#" class="btn-card">Join Now</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col span-1-of-4">
-               <div class="price-card">
-                   <div class="top4 top">
-                       <h4>Premium</h4>
-                       <p class="plan-price">$499 <span>/ month</span></p>
-                   </div>
-                   <div class="middle middle4">
-                       <ul>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Training Overview</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Beginner Classes</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Personal Training</li>
-                           <li><i class="ion-ios-checkmark-empty icon-small"></i>Cross-Fit Training</li>
-                       </ul>
-                   </div>
-                   <div class="bottom bottom4">
-                       <a href="#" class="btn-card">Join Now</a>
-                   </div>
-               </div>
-           </div>
+        <div class="features-visual reveal">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500&h=400&fit=crop&crop=center" alt="Personal trainer working with client" class="rounded" />
+          <div class="stats-overlay">
+            <div class="stat-item">
+              <span class="stat-number">2000+</span>
+              <span class="stat-label">Members Transformed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facility & Equipment -->
+  <section id="facility" class="section facility">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">OUR FACILITY</p>
+        <h2>STATE-OF-THE-ART EQUIPMENT</h2>
+        <p>Train with the best equipment in a motivating environment designed for results.</p>
+      </header>
+      <div class="grid grid--3">
+        <div class="facility-card reveal">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop&crop=center" alt="Cardio equipment" />
+          <div class="facility-card__body">
+            <h3>CARDIO ZONE</h3>
+            <p>Latest treadmills, ellipticals, and bikes with entertainment systems and heart rate monitoring.</p>
+          </div>
+        </div>
+        <div class="facility-card reveal">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=300&fit=crop&crop=center" alt="Strength training area" />
+          <div class="facility-card__body">
+            <h3>STRENGTH TRAINING</h3>
+            <p>Premium free weights, resistance machines, and functional training equipment for all fitness levels.</p>
+          </div>
+        </div>
+        <div class="facility-card reveal">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&h=300&fit=crop&crop=center" alt="Group fitness studio" />
+          <div class="facility-card__body">
+            <h3>GROUP FITNESS STUDIO</h3>
+            <p>Spacious studio with professional sound system and mirrors for our high-energy group classes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule & Classes -->
+  <section id="schedule" class="section schedule">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">CLASS SCHEDULE</p>
+        <h2>FIND YOUR PERFECT WORKOUT TIME</h2>
+        <p>We offer classes throughout the day to fit your busy schedule.</p>
+      </header>
+      <div class="schedule-container">
+        <div class="schedule-grid reveal">
+          <div class="time-slot">
+            <div class="time">6:00 AM</div>
+            <div class="class-info">
+              <h4>MORNING HIIT</h4>
+              <span>High Intensity Training</span>
+            </div>
+          </div>
+          <div class="time-slot">
+            <div class="time">7:30 AM</div>
+            <div class="class-info">
+              <h4>STRENGTH FOUNDATIONS</h4>
+              <span>Beginner Strength Training</span>
+            </div>
+          </div>
+          <div class="time-slot">
+            <div class="time">12:00 PM</div>
+            <div class="class-info">
+              <h4>LUNCH BURN</h4>
+              <span>Express Cardio Workout</span>
+            </div>
+          </div>
+          <div class="time-slot">
+            <div class="time">6:00 PM</div>
+            <div class="class-info">
+              <h4>POWER LIFTING</h4>
+              <span>Advanced Strength Training</span>
+            </div>
+          </div>
+          <div class="time-slot">
+            <div class="time">7:30 PM</div>
+            <div class="class-info">
+              <h4>FUNCTIONAL FITNESS</h4>
+              <span>Movement & Mobility</span>
+            </div>
+          </div>
+        </div>
+        <div class="schedule-cta reveal">
+          <h3>READY TO JOIN A CLASS?</h3>
+          <p>All fitness levels welcome. First class is always free for new members.</p>
+          <a href="#contact" class="btn btn--primary">BOOK YOUR FIRST CLASS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plans / Pricing -->
+  <section id="plans" class="section plans">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">MEMBERSHIP OPTIONS</p>
+        <h2>CHOOSE YOUR FITNESS PLAN</h2>
+        <p>Flexible membership options to fit your schedule and budget. All plans include access to our expert trainers.</p>
+      </header>
+      <div class="grid grid--3 pricing">
+        <article class="price-card reveal">
+          <h3>STARTER</h3>
+          <p class="price"><span class="currency">$</span>39<span class="term">/mo</span></p>
+          <ul class="features">
+            <li>4 group classes per week</li>
+            <li>Initial fitness assessment</li>
+            <li>Basic progress tracking</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost">GET STARTED</a>
+        </article>
+        <article class="price-card price-card--featured reveal">
+          <div class="badge">MOST POPULAR</div>
+          <h3>FITNESS</h3>
+          <p class="price"><span class="currency">$</span>69<span class="term">/mo</span></p>
+          <ul class="features">
+            <li>Unlimited group classes</li>
+            <li>Monthly personal training session</li>
+            <li>Nutrition guidance and meal planning</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">JOIN NOW</a>
+        </article>
+        <article class="price-card reveal">
+          <h3>PREMIUM</h3>
+          <p class="price"><span class="currency">$</span>99<span class="term">/mo</span></p>
+          <ul class="features">
+            <li>Unlimited classes + specialty workshops</li>
+            <li>Weekly personal training sessions</li>
+            <li>Complete wellness program</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost">GO PREMIUM</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">SUCCESS STORIES</p>
+        <h2>REAL PEOPLE, REAL RESULTS</h2>
+        <p>See how CoreXFit members have transformed their health and fitness.</p>
+      </header>
+      <div class="grid grid--3">
+        <figure class="testimonial reveal">
+          <blockquote>
+            I lost 25 pounds and gained so much confidence in 6 months. The trainers are supportive and the program actually works!
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Alberto" />
+            <div>
+              <strong>ALBERTO MARTINEZ</strong>
+              <span>Member since 2019</span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="testimonial reveal">
+          <blockquote>
+            Finally found a gym that feels like home. The classes are challenging but doable, and I've never been stronger.
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Jessica" />
+            <div>
+              <strong>JESSICA WILLIAMS</strong>
+              <span>Member since 2018</span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="testimonial reveal">
+          <blockquote>
+            The personal training sessions helped me recover from injury and get back to running marathons. Incredible expertise!
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="Michael" />
+            <div>
+              <strong>MICHAEL DAVIS</strong>
+              <span>Member since 2017</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Location -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">GET STARTED TODAY</p>
+        <h2>READY TO TRANSFORM YOUR FITNESS?</h2>
+        <p>Take the first step towards your fitness transformation. We're here to guide you every step of the way.</p>
+      </header>
+      
+      <div class="contact-wrapper">
+        <div class="contact__form reveal">
+          <div class="form-header">
+            <h3>SCHEDULE YOUR FREE CONSULTATION</h3>
+            <p>Fill out the form below and we'll contact you within 24 hours to schedule your visit.</p>
+          </div>
+          <form class="form" action="#" method="post" onsubmit="return false">
+            <div class="form-row">
+              <div class="input-group">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required />
+              </div>
+              <div class="input-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+              </div>
+              <div class="input-group">
+                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" />
+              </div>
+            </div>
+            <div class="input-group">
+              <textarea id="goals" name="goals" rows="4" placeholder="What would you like to achieve? (e.g., lose weight, build muscle, improve endurance)"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <span>SCHEDULE FREE CONSULTATION</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+        
+        <div class="contact__info reveal">
+          <div class="info-card">
+            <div class="info-header">
+              <h3>VISIT OUR FACILITY</h3>
+              <p>Experience our state-of-the-art equipment and meet our expert trainers.</p>
+            </div>
             
+            <div class="facility-image">
+              <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&h=300&fit=crop&crop=center" alt="CoreXFit gym facility" />
+            </div>
+            
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 5.02944 7.02944 1 12 1C16.9706 1 21 5.02944 21 10Z" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <h4>ADDRESS</h4>
+                  <p>2455 Fitness Center Drive<br>Downtown District<br>New York, NY 10001</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <h4>PHONE</h4>
+                  <p>(555) 123-CORE<br>(555) 123-2673</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                    <polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <h4>HOURS</h4>
+                  <p>Mon-Fri: 5:00 AM - 11:00 PM<br>Sat-Sun: 6:00 AM - 10:00 PM</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="quick-actions">
+              <a href="#home" class="btn btn--ghost">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 5.02944 7.02944 1 12 1C16.9706 1 21 5.02944 21 10Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                GET DIRECTIONS
+              </a>
+              <a href="tel:5551232673" class="btn btn--outline">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                CALL NOW
+              </a>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- Subscription Section ends-->
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section starts  -->
-    <section class="contact-section" id="contact">
-        <div class="row">
-            <h2>Join <span>Gym</span></h2>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <a href="#home" class="logo">
+            <span class="logo-mark">CX</span>
+            <span class="logo-text">CoreXFit</span>
+          </a>
+          <p>Transform your health. Build lasting habits. Join our community of fitness enthusiasts.</p>
+          <div class="social-links">
+            <a href="#">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </a>
+            <a href="#">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </a>
+            <a href="#">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </a>
+            <a href="#">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" stroke="currentColor" stroke-width="2"/>
+                <polygon points="9.75,15.02 15.5,11.75 9.75,8.48" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
         </div>
-        <div class="row">
-            <div class="col span-1-of-2 timings-col">
-                <div class="row">
-                   <h4>Our Timings</h4>
-                </div>
-                <div class="row">
-                    <ul>
-                        <li>Monday-Friday <span>9:30-18:30</span></li>
-                        <li>Saturday <span>10:30-14:30</span></li>
-                        <li>Sunday <span>Closed</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col span-1-of-2">
-                <div class="row">
-                    <h4>Contact Form</h4>
-                </div>
-                <div class="row contact-row">
-                    <div class="col span-1-of-2">
-                        <input type="text" placeholder="First Name">
-                    </div>
-                    <div class="col span-1-of-2">
-                        <input type="text" placeholder="Last Name">
-                    </div>
-
-
-                    <div class="col span-1-of-2">
-                        <input type="text" placeholder="Email">
-                    </div>
-                    <div class="col span-1-of-2">
-                        <input type="text" placeholder="Mobile Number">
-                    </div>
-
-
-                    <div class="col span-1-of-2">
-                        <input type="number" min="13" placeholder="Age">
-                    </div>
-                    <div class="col span-1-of-2">
-                        <input type="number" placeholder="Weight">
-                    </div>
-
-
-                    <div class="col span-2-of-2"><textarea cols="30"
-                            placeholder="What are your Fitness Goals? Tell us So we can Help You..."
-                            rows="10"></textarea></div>
-                    <div class="col span-2-of-2"> <input type="text" placeholder="Mention if any Health Problems?">
-                    </div>
-                </div> 
-                <div class="row row-button">
-                    <a href="#" type="submit">Submit</a>
-               </div>
-            </div>
+        
+        <div class="footer__nav-section">
+          <h4>Programs</h4>
+          <nav class="footer__nav">
+            <a href="#programs">High Intensity Training</a>
+            <a href="#programs">Strength & Power</a>
+            <a href="#programs">Functional Fitness</a>
+            <a href="#plans">Personal Training</a>
+          </nav>
         </div>
-    </section>
-    <!-- contact section ends -->
-
-    <!-- Footer Section starts -->
-    <section class="footer-section">
-        <div class="row">
-            <div class="col span-1-of-4">
-                <div class="row">
-                    <h4>Our Social Media Links</h4>
-                </div>
-                <ul class="social-links">
-                    <li><a href="#"><i class="ion-social-facebook icon-small"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter icon-small"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram icon-small"></i></a></li>
-                    <li><a href="#"><i class="ion-social-youtube icon-small"></i></a></li>
-                </ul>
-            </div>
-            <div class="col span-1-of-4">
-                <div class="row">
-                    <h4>Special Thanks to</h4>
-                </div>
-                <ul class="thanking">
-                    <li><a href="https://unsplash.com/">Unsplash</a></li>
-                    <li><a href="https://www.pexels.com/">Pexels</a></li>
-                    <li><a href="https://www.w3schools.com/">w3schools</a></li>
-                    <li><a href="https://codingheroes.io/">Coding Heroes</a></li>
-                    <li><a href="https://codepen.io/matthewcain/pen/ZepbeR">CodePen</a></li>
-                </ul>
-            </div>
-            <div class="col span-1-of-4">
-                <div class="row">
-                    <h4>Our <span>Links</span></h4>
-                </div>
-                <div class="row">
-                    <ul class="footer-nav">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#pricing">Subscription</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col span-1-of-4">
-                <div class="row">
-                    <h4>Contact <span>Info</span> : </h4>
-                </div>
-                <ul class="contact-info">
-                    <li><i class="ion-ios-location icon-small"></i>Sector 24, 2B, 4th block, <br> <span id="nw">New York
-                            City.</span></li>
-                    <li><i class="ion-ios-email icon-small"></i>info@example.com</li>
-                    <li><i class="ion-android-call icon-small"></i>+1(21) 244 567 5678</li>
-                    <li><i class="ion-android-globe icon-small"></i>info@website.com</li>
-                </ul>
-            </div>
+        
+        <div class="footer__nav-section">
+          <h4>Membership</h4>
+          <nav class="footer__nav">
+            <a href="#plans">Starter Plan</a>
+            <a href="#plans">Fitness Plan</a>
+            <a href="#plans">Premium Plan</a>
+            <a href="#contact">Free Trial</a>
+          </nav>
         </div>
-    </section>
-    
+        
+        <div class="footer__contact">
+          <h4>Get In Touch</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 5.02944 7.02944 1 12 1C16.9706 1 21 5.02944 21 10Z" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <span>2455 Fitness Center Drive<br>New York, NY 10001</span>
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>(555) 123-CORE</span>
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <span>Mon-Fri: 5AM-11PM<br>Sat-Sun: 6AM-10PM</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary btn--sm">START TODAY</a>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <div class="footer__legal">
+          <p>&copy; <span id="year"></span> CoreXFit. All rights reserved.</p>
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#home" class="to-top">▲</a>
+  </footer>
 
-   
-    <footer>
-        <h5>© 2019 Fitness Pro. All Rights Reserved | Design by Priyesh Shukla.</h5>
-    </footer>
-
-    <!-- Footer Section ends -->
-
-     <!-- Back to Top Button -->
-     <a id="button" href="#home"></a>
-
-
-    <!-- Javscripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
-
 </html>
