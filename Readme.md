@@ -16,7 +16,7 @@
 
 <br>
 
-## 🚀 [View Live Site](https://priyesh-04.github.io/CoreXFIt/)
+## 🚀 [View Live Site](https://priyesh-04.github.io/CoreXFit/)
 
 <br>
 
